@@ -1,0 +1,23 @@
+@media only screen and (max-width: 688px) { 
+    .container {
+        width: 100%;
+    }
+    .title{
+        text-align: center;
+        
+    }
+    .player, .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player-name {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .blog-info p {
+        margin-left: 10px;
+    }
+    .latest-course {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    }
+ }
