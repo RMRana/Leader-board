@@ -7,7 +7,6 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
-
 hr{
     border: 1px solid #d1d1d1;
     margin-bottom: 27px;
@@ -73,8 +72,9 @@ main{
     font-size: 20px;
     margin: 10px;
 }
-.blog-info p{
+.blog-info p {
     color: #9F9F9F;
+    margin-left: 9px;
 }
 .blog-info a{
     text-decoration: none;
@@ -112,6 +112,10 @@ main{
     color: #FFC014;
     font-size: 14px;
 }
+.rating-duration .rating span{
+    color: gray;
+}
+
 .rating-duration .rating .dis-rating{
     color: lightgray;
 }
