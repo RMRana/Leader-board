@@ -1,6 +1,7 @@
 @media only screen and (max-width: 688px) { 
     .container {
         width: 100%;
+        overflow-x: hidden;
     }
     .title{
         text-align: center;
@@ -19,5 +20,28 @@
     .latest-course {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 30px;
+    }
+ }
+ @media only screen and (min-width: 669px) and (max-width: 992px){
+    .container{
+        width: 100%;
+    }
+    .player{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-info p {
+        text-align: center;
+    }
+    .latest-course {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 22px;
     }
  }
